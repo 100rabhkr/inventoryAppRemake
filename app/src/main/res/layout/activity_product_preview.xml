@@ -31,7 +31,7 @@
             <TextView
                 style="@style/add_product_text_view"
                 android:gravity="center_vertical"
-                android:text="@string/product_name"
+                android:text="Product Name"
                 android:id="@+id/detail_prod_name" />
 
             <TextView
@@ -52,7 +52,7 @@
             <TextView
                 style="@style/add_product_text_view"
                 android:gravity="center_vertical"
-                android:text="@string/product_price"
+                android:text="Price:"
                 android:id="@+id/detail_prod_price" />
 
             <TextView
@@ -69,7 +69,7 @@
 
             <TextView
                 style="@style/add_product_text_view"
-                android:text="@string/product_stock"
+                android:text="In Stock"
                 android:gravity="center_vertical"
                 android:id="@+id/detail_prod_qty" />
 

@@ -62,7 +62,7 @@
             <TextView
                 style="@style/list_text_label"
                 android:layout_width="@dimen/list_text_view"
-                android:text="@string/product_price"
+                android:text="Price:"
                 android:layout_height="wrap_content" />
 
             <TextView
