@@ -16,8 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddItem" />
-        <activity android:name=".ProductPreview"></activity>
+        <activity android:name=".AddItem" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/add_product_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dezlum.www.productinventory.MainActivity" />
+            </activity>
+        <activity android:name=".ProductPreview"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/product_detail_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dezlum.www.productinventory.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
